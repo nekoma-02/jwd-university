@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Configuration status="WARN">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+		<RollingFile name="LogFile" fileName="C:\Users\nekoma\eclipse-workspace\jwd_university_project\src\main\resources\logs\universityLogs.log" filePattern="C:\Users\nekoma\eclipse-workspace\jwd_university_project\src\main\resources\logs\universityLogs_%i.log">
+            <PatternLayout pattern="%-5level %d{yyyy-MM-dd HH:mm:ss} %c{1} - %m%n" />
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="5" />
+        </RollingFile>
+	</Appenders>
+	<Loggers>
+		<Root level="error">
+			<AppenderRef ref="Console" />
+			 <AppenderRef ref="LogFile"/>
+		</Root>
+	</Loggers>
+</Configuration>

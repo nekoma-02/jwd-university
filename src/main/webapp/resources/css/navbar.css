@@ -1,0 +1,34 @@
+#rus_btn {
+	background: url("../images/russia.jpg") no-repeat;
+	background-size: contain;
+	width: 30px;
+	height: 30px;
+}
+
+#en_btn {
+	background: url("../images/england.jpg") no-repeat;
+	background-size: contain;
+	width: 30px;
+	height: 30px;
+}
+
+#locale-form {
+	margin-top: 10px;
+	height: 10px;
+}
+
+#login-form {
+	height: 20px;
+}
+
+#login-form a {
+	color: #D3D3D3;
+	text-decoration: none;
+}
+
+#login-form button {
+	color: #D3D3D3;
+	background-image: none;
+	background: transparent;
+	background-color: transparent;
+}

@@ -1,0 +1,51 @@
+.table-filters label {
+	margin-right: 20px;
+}
+
+#admin-content {
+	margin-top: -25px;
+}
+
+#admin-nav {
+	height: 100vh;
+}
+
+#alert {
+	border-radius: 15px;
+	text-align: center;
+	margin-left: 10%;
+	width: 70%;
+}
+
+/* login page*/
+.authorization_form {
+	width: 70%;
+	margin-left: 10%;
+}
+
+/* registration page*/
+.registration-form {
+	width: 70%;
+	margin-left: 10%;
+}
+
+/* index */
+.content {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 30px;
+}
+
+#accaunt-row {
+	margin-bottom: 30px;
+}
+
+#accaunt-row p {
+	font-size: 16px;
+}
+
+#img-content img {
+	width: 100%;
+	border-radius: 10px;
+}
